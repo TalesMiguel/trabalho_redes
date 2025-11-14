@@ -1,0 +1,206 @@
+
+Iniciando simulacoes...
+Total de cenarios: 36
+
+[1/36] Executando: protocol=udp, mobility=static, clients=1
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_static_1.xml
+
+[2/36] Executando: protocol=udp, mobility=static, clients=2
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_static_2.xml
+
+[3/36] Executando: protocol=udp, mobility=static, clients=4
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_static_4.xml
+
+[4/36] Executando: protocol=udp, mobility=static, clients=8
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_static_8.xml
+
+[5/36] Executando: protocol=udp, mobility=static, clients=16
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_static_16.xml
+
+[6/36] Executando: protocol=udp, mobility=static, clients=32
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_static_32.xml
+
+[7/36] Executando: protocol=tcp, mobility=static, clients=1
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_static_1.xml
+
+[8/36] Executando: protocol=tcp, mobility=static, clients=2
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_static_2.xml
+
+[9/36] Executando: protocol=tcp, mobility=static, clients=4
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_static_4.xml
+
+[10/36] Executando: protocol=tcp, mobility=static, clients=8
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_static_8.xml
+
+[11/36] Executando: protocol=tcp, mobility=static, clients=16
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_static_16.xml
+
+[12/36] Executando: protocol=tcp, mobility=static, clients=32
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_static_32.xml
+
+[13/36] Executando: protocol=mixed, mobility=static, clients=1
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_static_1.xml
+
+[14/36] Executando: protocol=mixed, mobility=static, clients=2
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_static_2.xml
+
+[15/36] Executando: protocol=mixed, mobility=static, clients=4
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_static_4.xml
+
+[16/36] Executando: protocol=mixed, mobility=static, clients=8
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_static_8.xml
+
+[17/36] Executando: protocol=mixed, mobility=static, clients=16
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_static_16.xml
+
+[18/36] Executando: protocol=mixed, mobility=static, clients=32
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_static_32.xml
+
+[19/36] Executando: protocol=udp, mobility=mobile, clients=1
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_mobile_1.xml
+
+[20/36] Executando: protocol=udp, mobility=mobile, clients=2
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_mobile_2.xml
+
+[21/36] Executando: protocol=udp, mobility=mobile, clients=4
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_mobile_4.xml
+
+[22/36] Executando: protocol=udp, mobility=mobile, clients=8
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_mobile_8.xml
+
+[23/36] Executando: protocol=udp, mobility=mobile, clients=16
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_udp_mobile_16.xml
+
+[24/36] Executando: protocol=udp, mobility=mobile, clients=32
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+NS_ASSERT failed, cond="m_bounds.IsInside(position)", +0.000000000s -1 file=/home/tales/grad/redes/ns-3.45/src/mobility/model/random-walk-2d-mobility-model.cc, line=245
+NS_FATAL, terminating
+terminate called without an active exception
+Command 'build/scratch/ns3.45-TrabRedes-default --nWifi=32 --protocol=0 --mobility=1 --outputFile=/home/tales/grad/redes/projeto/results/flow_udp_mobile_32.xml' died with <Signals.SIGABRT: 6>.
+  -> ERRO na simulacao
+
+[25/36] Executando: protocol=tcp, mobility=mobile, clients=1
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_mobile_1.xml
+
+[26/36] Executando: protocol=tcp, mobility=mobile, clients=2
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_mobile_2.xml
+
+[27/36] Executando: protocol=tcp, mobility=mobile, clients=4
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_mobile_4.xml
+
+[28/36] Executando: protocol=tcp, mobility=mobile, clients=8
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_mobile_8.xml
+
+[29/36] Executando: protocol=tcp, mobility=mobile, clients=16
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_tcp_mobile_16.xml
+
+[30/36] Executando: protocol=tcp, mobility=mobile, clients=32
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+NS_ASSERT failed, cond="m_bounds.IsInside(position)", +0.000000000s -1 file=/home/tales/grad/redes/ns-3.45/src/mobility/model/random-walk-2d-mobility-model.cc, line=245
+NS_FATAL, terminating
+terminate called without an active exception
+Command 'build/scratch/ns3.45-TrabRedes-default --nWifi=32 --protocol=1 --mobility=1 --outputFile=/home/tales/grad/redes/projeto/results/flow_tcp_mobile_32.xml' died with <Signals.SIGABRT: 6>.
+  -> ERRO na simulacao
+
+[31/36] Executando: protocol=mixed, mobility=mobile, clients=1
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_mobile_1.xml
+
+[32/36] Executando: protocol=mixed, mobility=mobile, clients=2
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_mobile_2.xml
+
+[33/36] Executando: protocol=mixed, mobility=mobile, clients=4
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_mobile_4.xml
+
+[34/36] Executando: protocol=mixed, mobility=mobile, clients=8
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_mobile_8.xml
+
+[35/36] Executando: protocol=mixed, mobility=mobile, clients=16
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+  -> Concluido: /home/tales/grad/redes/projeto/results/flow_mixed_mobile_16.xml
+
+[36/36] Executando: protocol=mixed, mobility=mobile, clients=32
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+NS_ASSERT failed, cond="m_bounds.IsInside(position)", +0.000000000s -1 file=/home/tales/grad/redes/ns-3.45/src/mobility/model/random-walk-2d-mobility-model.cc, line=245
+NS_FATAL, terminating
+terminate called without an active exception
+Command 'build/scratch/ns3.45-TrabRedes-default --nWifi=32 --protocol=2 --mobility=1 --outputFile=/home/tales/grad/redes/projeto/results/flow_mixed_mobile_32.xml' died with <Signals.SIGABRT: 6>.
+  -> ERRO na simulacao
+
+Todas as simulacoes foram concluidas!
+Resultados salvos em: /home/tales/grad/redes/projeto/results/
+
+~/grad/redes/projeto master !1 ?4                                                                                       
+~/grad/redes/projeto master !1 ?4                                                                                       
+~/grad/redes/projeto master !1 ?4                                                                                       
+~/grad/redes/projeto master !1 ?4                                                                                       
+~/grad/redes/projeto master !1 ?4                                                                                                          6m 40s py base
+~/grad/redes/projeto master !1 ?4                                                                                                6m 40s py base 17:38:13
+> 
