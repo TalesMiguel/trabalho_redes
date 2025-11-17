@@ -105,6 +105,7 @@ int main(int argc, char *argv[]){
     } else if (mobility == 1){
         // ConstantVelocityMobilityModel gera movimento linear unidirecional se afastando do Ap
         mobilitySta.SetMobilityModel("ns3::RandomWalk2dMobilityModel",
+                                     "Bounds", RectangleValue(Rectangle(0, 200, 0, 200)),
                                      "Speed", StringValue("ns3::UniformRandomVariable[Min=1.0|Max=2.0]"),
                                      "Distance", DoubleValue(10.0));
         mobilitySta.Install(wifiStaNodes);
