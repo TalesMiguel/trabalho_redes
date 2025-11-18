@@ -48,8 +48,8 @@ int main(int argc, char *argv[]){
     YansWifiPhyHelper phy;
     phy.SetChannel(channel.Create());
 
-    phy.Set("TxPowerStart", DoubleValue(16.0));
-    phy.Set("TxPowerEnd", DoubleValue(16.0));
+    phy.Set("TxPowerStart", DoubleValue(5.0));
+    phy.Set("TxPowerEnd", DoubleValue(5.0));
     phy.Set("TxPowerLevels", UintegerValue(1));
     phy.Set("RxSensitivity", DoubleValue(-80.0));
     phy.Set("CcaEdThreshold", DoubleValue(-78.0));
