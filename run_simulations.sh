@@ -1,9 +1,8 @@
 #!/bin/bash
 
-RESULTS_DIR="results"
-mkdir -p $RESULTS_DIR
-
 PROJECT_DIR="/home/tales/grad/redes"
+RESULTS_DIR="$PROJECT_DIR/results"
+mkdir -p "$RESULTS_DIR"
 NS3_DIR="$PROJECT_DIR/ns-3.45"
 SCRATCH_FILE="$PROJECT_DIR/TrabRedes.cc"
 
@@ -48,7 +47,7 @@ for mobility in "${MOBILITY_MODES[@]}"; do
             
             mob_name=${MOBILITY_NAMES[$mobility]}
             proto_name=${PROTOCOL_NAMES[$protocol]}
-            output_file="$PROJECT_DIR/projeto/${RESULTS_DIR}/flow_${proto_name}_${mob_name}_${clients}.xml"
+            output_file="$RESULTS_DIR/flow_${proto_name}_${mob_name}_${clients}.xml"
             
             echo "[$count/$total] Executando: protocol=${proto_name}, mobility=${mob_name}, clients=${clients}"
             
@@ -65,4 +64,4 @@ for mobility in "${MOBILITY_MODES[@]}"; do
 done
 
 echo "Todas as simulacoes foram concluidas!"
-echo "Resultados salvos em: $PROJECT_DIR/projeto/$RESULTS_DIR/"
+echo "Resultados salvos em: $RESULTS_DIR/"
